@@ -17,6 +17,8 @@ Målene for denne workshopen er å kunne:
 For å få en liten introduksjon til Azure ML Studio, gjennomfører vi en 
 liten demo, slik at vi går gjennom stegene for å bygge en modell i ML Studio.
 
+[Link til demo](https://github.com/ingljo/machine-learning-workshop/blob/master/demo/demo.md).
+
 ## Workshop tema - Kan vi spå faren for snøskred?
 NVE samler inn data daglig over snøforhold og hvilke snøskred som har gått i området. Dette bruker de
 blant annet observatører til. I tillegg bruker de data fra Metrologisk institutt for vær for å kunne
@@ -29,9 +31,12 @@ med hvilket vær det har vært i området den siste tiden.
 Er det mulig for oss å kunne spå det samme varselet automatisk ved hjelp av maskinlæring?
 
 ### Data
-NVE legger ut sine data lisensiert under Norsk lisens for offentlige data (NLOD[https://data.norge.no/nlod/no]) og vi har fått
+NVE legger ut sine data lisensiert under Norsk lisens for offentlige data [NLOD](https://data.norge.no/nlod/no) og vi har fått
 sammenstilt data fra sesongen 2016 til bruk i denne workshopen.
 
+[Her kan du laste ned sammenstilt data for 2016-sesongen til bruk i denne workshopen.](https://github.com/ingljo/machine-learning-workshop/blob/master/data/SeasonDataExtended_All_2016-08-01_2017-06-01.tsv)
+
+#### Beskrivelse av kolonnene
 
 ### Hva ønsker vi å finne ut?
 Det vi ønsker å kunne spå er utfallet av kolonne nr. 3 "DangerLevel", som er spådd faregrad.
