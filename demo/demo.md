@@ -67,3 +67,9 @@ Vi skal bruke et ferdig eksempel-datasett for denne demoen.
 * Lagre, kjør og _Deploy Webservice_ på nytt. Gå til test-siden, og se at input nå er mer relevant.
 * I output ønsker vi heller ikke noe annet enn _Scored Labels_, så vi kan fjerne alle andre output
 ved å legge til en _Select Columns in Dataset_ modul mellom _Score Model_ og _Web Service Output_.
+
+### Resultat Training Experiment
+![Bilde av Training Experiment](https://github.com/ingljo/machine-learning-workshop/blob/master/demo/TrainingExperiment.JPG)
+
+### Resultat Predictive Experiment
+![Bilde av Predictive Experiment](https://github.com/ingljo/machine-learning-workshop/blob/master/demo/PredictiveExperiment.JPG)
