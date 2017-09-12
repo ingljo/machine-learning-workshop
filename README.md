@@ -63,6 +63,8 @@ sammenstilt data fra sesongen 2016 til bruk i denne workshopen.
 * WetLooseProblem - Våt løssnø
 * GlideSnowProblemProblem - Glidende lag
 
+I tillegg har vi også aggregert opp en del verdier for gjenomsnitt eller antall tilfeller de siste 2, 7, 14 og 30 dagene.
+
 
 ### Hva ønsker vi å finne ut?
 Det vi ønsker å kunne spå er utfallet av kolonne nr. 3 "DangerLevel", som er spådd faregrad.
