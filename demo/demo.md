@@ -73,3 +73,6 @@ ved å legge til en _Select Columns in Dataset_ modul mellom _Score Model_ og _We
 
 ### Resultat Predictive Experiment
 ![Bilde av Predictive Experiment](https://github.com/ingljo/machine-learning-workshop/blob/master/demo/PredictiveExperiment.JPG)
+
+### Testing av Webservice
+![Bilde av Webservice Test](https://github.com/ingljo/machine-learning-workshop/blob/master/demo/TestWebservice.JPG)

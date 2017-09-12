@@ -8,7 +8,8 @@ bruke reell kundedata for å bygge en machine learning modell.
 * Ingvar Ljosland, [ingvar.ljosland@bouvet.no](mailto:ingvar.ljosland@bouvet.no)
 * Markus Skallist, [markus.skallist@bouvet.no](mailto:markus.skallist@bouvet.no)
 * Kristian Ekle, [kristian.ekle@bouvet.no](mailto:kristian.ekle@bouvet.no)
-Kontakt oss gjerne på Slack også
+
+__Kontakt oss gjerne på Slack__
 
 ### Læringsmål
 Målene for denne workshopen er å kunne:
@@ -103,7 +104,6 @@ Faregraden er en verdi mellom 1 til 5 hvor 1 er lav og 5 er ekstremt høy fare fo
 * Dra inn modulen _Evaluate Model_ og koble til _Score Model_ modulen.
 * Lagre og kjør modellen.
 * Høyreklikk på _Evaluate Model_ og velg _Evaluation Results_ -> _Visualize_.
-* Vi kan nå se fra __Coefficient of Determination__ hvor god vår modell er til å forutsi prisen.
 
 ### 8. Lag en Webservice for å kunne kalle modellen
 * Når du er fornøyd med modellen, kan du deploye den som en webservice
