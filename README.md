@@ -95,7 +95,7 @@ Faregraden er en verdi mellom 1 til 5 hvor 1 er lav og 5 er ekstremt høy fare fo
 * Dra inn modulene _Train Model_ og _Score Model_. 
 * Lag kobling mellom _Dataset1_ fra _Split Data_ til _Train Model_ og fra _Dataset2_ i _Split Data_ til _Score Model_.
 * Lag en kobling mellom output fra _Train Model_ til _Score Model_.
-* I _Train Model_ velg _Score_ som kolonne.
+* I _Train Model_ velg _DangerLevel_ som kolonne.
 
 ### 6. Velg algoritme som skal brukes for å trene modellen
 * For å velge algoritme bruker vi [__Machine Learning Algorithm Cheat Sheet__](https://github.com/ingljo/machine-learning-workshop/blob/master/microsoft-machine-learning-algorithm-cheat-sheet-v6.pdf)
