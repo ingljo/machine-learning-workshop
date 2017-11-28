@@ -89,26 +89,26 @@ Faregraden er en verdi mellom 1 til 5 hvor 1 er lav og 5 er ekstremt høy fare fo
 * Velg _Datasets_ -> Trykk _+ NEW_ Nederst til høyre.
 * Last opp NVE datasett
 
-### 5. Split data i hva som skal brukes til trening og hva som skal brukes til evaluering i etterkant av modellen
+### 4. Split data i hva som skal brukes til trening og hva som skal brukes til evaluering i etterkant av modellen
 * Vi ønsker å bruke en del av dataen til å trene modellen og en del av dataen til å evaluere i etterkant.
-* Dra inn modulen _Split Data_. Koble til _Filtered Dataset_.
+* Dra inn modulen _Split Data_. Koble til datasettet.
 * Velg antall % som skal inn til splittet _Dataset1_ og _Dataset2_ og velg _Randomized Split_.
 * Dra inn modulene _Train Model_ og _Score Model_. 
 * Lag kobling mellom _Dataset1_ fra _Split Data_ til _Train Model_ og fra _Dataset2_ i _Split Data_ til _Score Model_.
 * Lag en kobling mellom output fra _Train Model_ til _Score Model_.
 * I _Train Model_ velg _DangerLevel_ som kolonne.
 
-### 6. Velg algoritme som skal brukes for å trene modellen
+### 5. Velg algoritme som skal brukes for å trene modellen
 * For å velge algoritme bruker vi [__Machine Learning Algorithm Cheat Sheet__](https://github.com/ingljo/machine-learning-workshop/blob/master/microsoft-machine-learning-algorithm-cheat-sheet-v6.pdf)
 * Du kan prøve ulike algoritmer og tune parametere for å se hva som gir best resultat.
 
-### 7. Evaluer modellen
+### 6 Evaluer modellen
 * For å kunne si hvor god modellen vår er må vi evaluere resultatet.
 * Dra inn modulen _Evaluate Model_ og koble til _Score Model_ modulen.
 * Lagre og kjør modellen.
 * Høyreklikk på _Evaluate Model_ og velg _Evaluation Results_ -> _Visualize_.
 
-### 8. Lag en Webservice for å kunne kalle modellen
+### 7. Lag en Webservice for å kunne kalle modellen
 * Når du er fornøyd med modellen, kan du deploye den som en webservice
 * Velg _Set Up Webservice_ -> _Predictive Web Service_. Vi får nå et nytt _Predictive Experiment_ opprettet.
 * Velg _Deploy Webservice_ og test den ved å bruke _Request/Response test-page_.
