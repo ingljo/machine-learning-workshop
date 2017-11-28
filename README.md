@@ -8,6 +8,7 @@ bruke reell kundedata for å bygge en machine learning modell.
 * Ingvar Ljosland, [ingvar.ljosland@bouvet.no](mailto:ingvar.ljosland@bouvet.no)
 * Markus Skallist, [markus.skallist@bouvet.no](mailto:markus.skallist@bouvet.no)
 * Kristian Ekle, [kristian.ekle@bouvet.no](mailto:kristian.ekle@bouvet.no)
+* Stian Kvaale, [stian.kvaale@bouvet.no](mailto:stian.kvaale@bouvet.no)
 
 __Kontakt oss gjerne på Slack__
 
