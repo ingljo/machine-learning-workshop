@@ -2,7 +2,7 @@
 
 ## Introduksjon
 I denne workshopen skal vi "hands-on" i bruk av Azure Machine Learning Studio og
-bruke reell kundedata for å bygge en machine learning modell.
+bruke reell data for å bygge en machine learning modell.
 
 ## Om oss
 * Ingvar Ljosland, [ingvar.ljosland@bouvet.no](mailto:ingvar.ljosland@bouvet.no)
