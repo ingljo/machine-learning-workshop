@@ -112,8 +112,3 @@ Faregraden er en verdi mellom 1 til 5 hvor 1 er lav og 5 er ekstremt høy fare fo
 * Velg _Set Up Webservice_ -> _Predictive Web Service_. Vi får nå et nytt _Predictive Experiment_ opprettet.
 * Velg _Deploy Webservice_ og test den ved å bruke _Request/Response test-page_.
 
-### 9. Konkurranse
-* Ta screenshot, beskriv algoritme som er brukt og eventuelt tuning av parametre.
-* Send beskrivelsen til oss på slack eller epost.
-* På slutten av sesjonen går vi gjennom forslagene og kårer en vinner
-
